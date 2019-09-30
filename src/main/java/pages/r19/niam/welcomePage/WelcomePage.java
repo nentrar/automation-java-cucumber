@@ -1,4 +1,4 @@
-package pages.r19.niam;
+package pages.r19.niam.welcomePage;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.TimeoutException;
@@ -69,7 +69,7 @@ public class WelcomePage {
     public void checkWarningWindowPresence() {
 
         try {
-            wait.until(ExpectedConditions.elementToBeClickable(WARNING_WINDOW_BUTTON));
+            //wait.until(ExpectedConditions.elementToBeClickable(WARNING_WINDOW_BUTTON));
             WARNING_WINDOW_BUTTON.click();
         } catch (TimeoutException e) {
             System.out.println("Warning window does not occured.");
@@ -84,69 +84,69 @@ public class WelcomePage {
 
     public void openMenuStart() {
 
-        wait.until(ExpectedConditions.elementToBeClickable(NOKIA_BUTTON));
+        //wait.until(ExpectedConditions.elementToBeClickable(NOKIA_BUTTON));
         NOKIA_BUTTON.click();
     }
 
     public void openAdministration() {
 
-        wait.until(ExpectedConditions.elementToBeClickable(ADMINISTRATION_BUTTON));
+        //wait.until(ExpectedConditions.elementToBeClickable(ADMINISTRATION_BUTTON));
         ADMINISTRATION_BUTTON.click();
     }
 
     public void openNetworkAccess() {
 
-        wait.until(ExpectedConditions.elementToBeClickable(NETWORKACCESS_BUTTON));
+        //wait.until(ExpectedConditions.elementToBeClickable(NETWORKACCESS_BUTTON));
         NETWORKACCESS_BUTTON.click();
     }
 
     public void openNetwork() {
 
-        wait.until(ExpectedConditions.elementToBeClickable(NETWORK_BUTTON));
+        //wait.until(ExpectedConditions.elementToBeClickable(NETWORK_BUTTON));
         NETWORK_BUTTON.click();
     }
 
     public void openNamedCredentials() {
 
-        wait.until(ExpectedConditions.elementToBeClickable(NAMEDCREDENTIALS_BUTTON));
+        //wait.until(ExpectedConditions.elementToBeClickable(NAMEDCREDENTIALS_BUTTON));
         NAMEDCREDENTIALS_BUTTON.click();
     }
 
     public void openNeGroupManager() {
 
-        wait.until(ExpectedConditions.elementToBeClickable(NEGROUPMANAGER_BUTTON));
+        //wait.until(ExpectedConditions.elementToBeClickable(NEGROUPMANAGER_BUTTON));
         NEGROUPMANAGER_BUTTON.click();
     }
 
     public void openUserSecurity() {
 
-        wait.until(ExpectedConditions.elementToBeClickable(USERSECURITY_BUTTON));
+        //wait.until(ExpectedConditions.elementToBeClickable(USERSECURITY_BUTTON));
         USERSECURITY_BUTTON.click();
     }
 
     public void clickLogoutButton() {
 
-        wait.until(ExpectedConditions.elementToBeClickable(LOGOUT_BUTTON));
+        //wait.until(ExpectedConditions.elementToBeClickable(LOGOUT_BUTTON));
         LOGOUT_BUTTON.click();
-        wait.until(ExpectedConditions.elementToBeClickable(LOGOUTCONFIRM_BUTTON));
+        //wait.until(ExpectedConditions.elementToBeClickable(LOGOUTCONFIRM_BUTTON));
         LOGOUTCONFIRM_BUTTON.click();
     }
 
     public void openResourceAccessManager() {
 
-        wait.until(ExpectedConditions.elementToBeClickable(RAM_BUTTON));
+        //wait.until(ExpectedConditions.elementToBeClickable(RAM_BUTTON));
         RAM_BUTTON.click();
     }
 
     public void openSecureAccessScheduler() {
 
-        wait.until(ExpectedConditions.elementToBeClickable(SECURE_ACCESS_SCHEDULER_XPATH));
+        //wait.until(ExpectedConditions.elementToBeClickable(SECURE_ACCESS_SCHEDULER_XPATH));
         SECURE_ACCESS_SCHEDULER_XPATH.click();
     }
 
     public void openGoldStandards() {
 
-        wait.until(ExpectedConditions.elementToBeClickable(GOLD_STANDARDS));
+        //wait.until(ExpectedConditions.elementToBeClickable(GOLD_STANDARDS));
         GOLD_STANDARDS.click();
     }
 

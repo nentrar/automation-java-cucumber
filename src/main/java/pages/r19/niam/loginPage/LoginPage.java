@@ -1,4 +1,4 @@
-package pages.r19.niam;
+package pages.r19.niam.loginPage;
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.TimeoutException;
@@ -15,7 +15,7 @@ public class LoginPage {
 
     WebDriver driver;
 
-    WebDriverWait wait = new WebDriverWait(driver, TIMEOUT_30SECONDS);
+    //WebDriverWait wait = new WebDriverWait(driver, TIMEOUT_30SECONDS);
 
     @FindBy(xpath = "//input[contains(@name,'username')]")
     WebElement USERNAME_INPUT;
@@ -34,13 +34,15 @@ public class LoginPage {
 
     public void enterUsername(String username) {
 
-        wait.until(ExpectedConditions.elementToBeClickable(USERNAME_INPUT));
+        //WebDriverWait wait = new WebDriverWait(driver, TIMEOUT_30SECONDS);
+        //wait.until(ExpectedConditions.elementToBeClickable(USERNAME_INPUT));
         USERNAME_INPUT.sendKeys(username);
     }
 
     public void enterPassword(String password) {
 
-        wait.until(ExpectedConditions.elementToBeClickable(PASSWORD_INPUT));
+        //WebDriverWait wait = new WebDriverWait(driver, TIMEOUT_30SECONDS);
+        //wait.until(ExpectedConditions.elementToBeClickable(PASSWORD_INPUT));
         PASSWORD_INPUT.sendKeys(password);
     }
 
