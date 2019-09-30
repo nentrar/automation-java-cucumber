@@ -1,28 +1,24 @@
 package stepdefs.pages.r19.niam;
 
-import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import org.apache.commons.io.FileUtils;
-import org.apache.log4j.Logger;
 import org.junit.Assert;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import pages.r19.niam.LoginPage;
-import pages.r19.niam.WelcomePage;
+import org.openqa.selenium.chrome.ChromeDriver;
+import pages.r19.niam.loginPage.LoginPage;
+import pages.r19.niam.welcomePage.WelcomePage;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 public class LoginPageDefinitions {
 
     WebDriver driver;
+
+    private final int TIMEOUT_10SECONDS = 10;
+
+
 
     //final Logger log = Logger.getLogger(LoginPageDefinitions.class.getName());
 
@@ -34,9 +30,11 @@ public class LoginPageDefinitions {
     @Given("^user open NIAM login page$")
     public void login_page_is_open(String niamUrl) {
 
-        driver = new FirefoxDriver();
-        driver.get(niamUrl);
+        System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
+        driver = new ChromeDriver();
+        driver.get("http://192.168.56.1:8080/netguard_iam/");
         driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(TIMEOUT_10SECONDS, TimeUnit.SECONDS);
 
 
 
