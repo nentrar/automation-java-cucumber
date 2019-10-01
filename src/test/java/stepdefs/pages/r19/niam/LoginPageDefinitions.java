@@ -30,7 +30,7 @@ public class LoginPageDefinitions {
     @Given("^user open NIAM login page$")
     public void login_page_is_open(String niamUrl) {
 
-        System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "driver/windows/chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("http://192.168.56.1:8080/netguard_iam/");
         driver.manage().window().maximize();
