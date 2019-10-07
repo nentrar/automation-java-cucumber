@@ -108,12 +108,16 @@ public class ResourceAccessManagerPage {
     @FindBy(xpath = "(//img[ancestor::td[preceding-sibling::td[child::span[contains(@class,'xtb-sep')]]]])[12]")
     WebElement REFRESH_BUTTON;
 
+    @FindBys(@FindBy(xpath = "//span[text()='Current Access']"))
+    List<WebElement> CURRENT_ACCESS_TITLE;
+
     private final String CREDENTIAL_NAME_XPATH = "//div[@class='x-grid3-cell-inner x-grid3-col-loginID' and text()='%s']";
     private final String TAB_XPATH = "//span[contains(@class,'x-tab-strip-text') and text()='%s']";
     private final String CREDENTIALS_PASSWORD_INPUT = "//div[contains(@class,'x-grid3-col-password') and parent::td[preceding-sibling::td[child::div[text()='%s']]]]";
     private final String LEFT_PANEL_DROPDOWN_XPATH = "//img[contains(@class,'x-tree3-node-joint') and following-sibling::img[contains(@class,'x-tree3-node-icon') and following-sibling::span[text()='%s']]]";
     private final String NETWORK_ELEMENT_NAME = "//span[text()='%s']";
     private final String SELECTED_PROFILE_XPATH = "//a[text()='%s']";
+    private final String CONFIRM_CREDENTIAL = "//div[contains(text(),'%s')]";
 
     public ResourceAccessManagerPage(WebDriver driver) {
 
@@ -226,7 +230,7 @@ public class ResourceAccessManagerPage {
 
     }
 
-    public Boolean changePasswordManually(String credentialName, String newPassword, String credDatabase) {
+    public Boolean changePasswordManually(String credentialName, String newPassword) {
 
         WebElement passwordInputUnselected = driver.findElement(By.xpath(String.format(CREDENTIALS_PASSWORD_INPUT, credentialName)));
         passwordInputUnselected.click();
@@ -276,6 +280,30 @@ public class ResourceAccessManagerPage {
     public void refreshUserList() {
 
         REFRESH_BUTTON.click();
+
+    }
+
+    public Boolean isAccessPresent() {
+
+        Boolean isPresent = CURRENT_ACCESS_TITLE.size() > 0;
+
+        if (isPresent) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public Boolean confirmCredentialExist(String credentialName) {
+
+        Boolean isPresent = driver.findElements(By.xpath(String.format(CONFIRM_CREDENTIAL, credentialName))).size() > 0;
+
+        if (isPresent) {
+            return true;
+        } else {
+            return false;
+        }
+
 
     }
 
