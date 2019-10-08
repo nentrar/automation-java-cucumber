@@ -58,6 +58,9 @@ public class WelcomePage {
     @FindBy(xpath = "//div[@class='button-content' and contains(text(),'nokadmin')]")
     WebElement LOGGED_USER;
 
+    @FindBy(xpath = "//a[contains(text(),'Network Snapshot Browser')]")
+    WebElement NETWORK_SNAPSHOT_BROWSER_BUTTON;
+
 
     public WelcomePage(WebDriver driver) {
         this.driver = driver;
