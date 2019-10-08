@@ -72,7 +72,6 @@ public class ResourceAccessManagerPageDefinitions {
         Assert.assertTrue(ram.deleteNetworkAccountCredential(credentialName));
 
 
-
     }
 
 
