@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import pages.r19.netguard.welcomePage.WelcomePage;
 
 
-public class WelcomePageDefinitions {
+public class NiamWelcomePageDefinitions {
 
     WebDriver driver;
 
@@ -41,6 +41,8 @@ public class WelcomePageDefinitions {
 
 
     }
+
+
 
 
 
