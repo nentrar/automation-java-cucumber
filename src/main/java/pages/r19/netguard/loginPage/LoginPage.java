@@ -15,13 +15,13 @@ public class LoginPage {
     //WebDriverWait wait = new WebDriverWait(driver, TIMEOUT_30SECONDS);
 
     @FindBy(xpath = "//input[contains(@name,'username')]")
-    WebElement USERNAME_INPUT;
+    static WebElement USERNAME_INPUT;
 
     @FindBy(xpath = "//input[contains(@name,'password')]")
-    WebElement PASSWORD_INPUT;
+    static WebElement PASSWORD_INPUT;
 
     @FindBy(id = "pro-fam-name")
-    WebElement LOGIN_PAGE_TXT;
+    static WebElement LOGIN_PAGE_TXT;
 
 
     public LoginPage(WebDriver driver) {
@@ -29,21 +29,21 @@ public class LoginPage {
         PageFactory.initElements(driver, this);
     }
 
-    public void enterUsername(String username) {
+    public static void enterUsername(String username) {
 
         //WebDriverWait wait = new WebDriverWait(driver, TIMEOUT_30SECONDS);
         //wait.until(ExpectedConditions.elementToBeClickable(USERNAME_INPUT));
         USERNAME_INPUT.sendKeys(username);
     }
 
-    public void enterPassword(String password) {
+    public static void enterPassword(String password) {
 
         //WebDriverWait wait = new WebDriverWait(driver, TIMEOUT_30SECONDS);
         //wait.until(ExpectedConditions.elementToBeClickable(PASSWORD_INPUT));
         PASSWORD_INPUT.sendKeys(password);
     }
 
-    public void clickEnterButton() {
+    public static void clickEnterButton() {
 
         PASSWORD_INPUT.sendKeys(Keys.ENTER);
     }

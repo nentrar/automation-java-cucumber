@@ -45,16 +45,16 @@ public class NetworkSnapshotBrowserPage {
 
     public void expandNeGroupDropdown(String groupName) {
 
-        //WebDriverWait wait = new WebDriverWait(driver, TIMEOUT_2MINUTES);
-        //wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(String.format(NE_GROUP_DROPDOWN_XPATH, groupName))));
+        WebDriverWait wait = new WebDriverWait(driver, TIMEOUT_2MINUTES);
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(String.format(NE_GROUP_DROPDOWN_XPATH, groupName))));
         driver.findElement(By.xpath(String.format(NE_GROUP_DROPDOWN_XPATH, groupName))).click();
 
     }
 
     public void selectNetworkElement(String neName) {
 
-//        WebDriverWait wait = new WebDriverWait(driver, TIMEOUT_2MINUTES);
-//        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(String.format(NETWORK_ELEMENT, neName))));
+        WebDriverWait wait = new WebDriverWait(driver, TIMEOUT_2MINUTES);
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(String.format(NETWORK_ELEMENT, neName))));
         driver.findElement(By.xpath(String.format(NETWORK_ELEMENT, neName))).click();
 
     }

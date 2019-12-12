@@ -35,6 +35,9 @@ public class GoldStandardsPage {
     @FindBy(xpath = "//button[contains(text(),'Close')]")
     WebElement CLOSE_BUTTON;
 
+    @FindBy(xpath = "(//img[@class='x-btn-image'])[9]")
+    WebElement REFRESH_BUTTON;
+
     final String GOLD_STANDARD = "//div[@qtip='%s']";
     final String NETWORK_ELEMENT = "//span[@qtip='%s']";
     final String IS_ASSIGNED_IMG = "//img[@title='Gold Standard is assigned' and ancestor::td[preceding-sibling::td[descendant::div[contains(text(),'%s')]]]]";
@@ -52,6 +55,11 @@ public class GoldStandardsPage {
 
     }
 
+    public void clickRefreshButton() {
+
+        REFRESH_BUTTON.click();
+    }
+
     public void openContextMenu(String gsName) {
 
         WebElement networkElement = driver.findElement(By.xpath(String.format(GOLD_STANDARD, gsName)));
@@ -59,7 +67,7 @@ public class GoldStandardsPage {
         action.contextClick(networkElement).build().perform();
     }
 
-    public Boolean assignGoldStandard(String gsName, String neName) {
+    public void assignGoldStandard(String gsName, String neName) {
 
         openContextMenu(gsName);
         ASSIGN_NE.click();
@@ -68,6 +76,10 @@ public class GoldStandardsPage {
         YES_BUTTON.click();
         CLOSE_BUTTON.click();
 
+    }
+
+    public Boolean isGoldStandardAssigned(String neName) {
+
         Boolean isAssigned = driver.findElements(By.xpath(String.format(IS_ASSIGNED_IMG, neName))).size() > 0;
 
         if (isAssigned) {
@@ -75,9 +87,6 @@ public class GoldStandardsPage {
         } else {
             return false;
         }
-
-
-
     }
 
 }
