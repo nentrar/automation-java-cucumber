@@ -31,6 +31,7 @@ public class Configuration {
     }
 
     public String getNiamUrl() {
+
         return niamUrl;
     }
 

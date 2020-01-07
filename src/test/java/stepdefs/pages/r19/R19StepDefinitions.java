@@ -1,5 +1,7 @@
 package stepdefs.pages.r19;
 
+
+import cucumber.api.DataTable;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -10,15 +12,20 @@ import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import pages.r18.netguard.networkAccess.NetworkElementsPage;
 import pages.r19.nacm.goldStandards.GoldStandardsPage;
 import pages.r19.netguard.loginPage.LoginPage;
 import pages.r19.netguard.welcomePage.WelcomePage;
 import pages.r19.niam.networkSnapshotBrowser.NetworkSnapshotBrowserPage;
 import pages.r19.nacm.network.NetworkPage;
+import pages.r19.niam.resourceAccessManager.ResourceAccessManagerPage;
+import pages.r19.niam.secureAccessScheduler.SecureAccessSchedulerPage;
 import stepdefs.pages.r19.netguard.LoginPageDefinitions;
 import util.Configuration;
 
 import java.io.IOException;
+import java.util.List;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 public class R19StepDefinitions {
@@ -121,6 +128,29 @@ public class R19StepDefinitions {
 
     }
 
+    @Given("^user log into NIAM application with login \\\"([^\\\"]*)\\\" and password \\\"([^\\\"]*)\\\"$")
+    public void user_log_to_niam(String login, String password) throws InterruptedException {
+
+        System.setProperty("webdriver.chrome.driver", "driver/windows/chromedriver.exe");
+        driver = new ChromeDriver();
+        driver.get(config.getNiamUrl());
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(TIMEOUT_10SECONDS, TimeUnit.SECONDS);
+
+        LoginPage loginPage = new LoginPage(driver);
+
+        loginPage.enterUsername(login);
+        loginPage.enterPassword(password);
+        loginPage.clickEnterButton();
+
+        WelcomePage niamDashboard = new WelcomePage(driver);
+        Assert.assertTrue(niamDashboard.isUserLogged(login));
+
+        logger.info("Login operation is performed with credentials " + login + "/" + password);
+
+
+    }
+
     @Given("^user log into NACM application with login \\\"([^\\\"]*)\\\" and password \\\"([^\\\"]*)\\\" and open start$")
     public void log_and_open_start(String login, String password) throws InterruptedException {
 
@@ -143,6 +173,20 @@ public class R19StepDefinitions {
 
 
     }
+
+
+    /** Netguard General Welcome Page Definitions */
+
+    @When("^Network Access is open$")
+    public void network_access_open() {
+        WelcomePage welcomePage = new WelcomePage(driver);
+        welcomePage.openMenuStart();
+        welcomePage.openAdministration();
+        welcomePage.openNetworkAccess();
+
+    }
+
+
 
 
 
@@ -196,6 +240,16 @@ public class R19StepDefinitions {
         welcomePage.openNetworkSnapshotBrowserDesktop();
 
         logger.info("Network Snapshot Browser is open");
+
+
+    }
+
+    @And("^Secure Access Scheduler is open$")
+    public void secure_access_scheduler_open() {
+
+        WelcomePage welcomePage = new WelcomePage(driver);
+        welcomePage.openSecureAccessScheduler();
+        logger.info("Secure Access Scheduler is open");
 
 
     }
@@ -342,6 +396,148 @@ public class R19StepDefinitions {
         network.verifyGoldStandardCreation();
 
     }
+
+    @And("^NE Group \\\"([^\\\"]*)\\\" is open and adapter \\\"([^\\\"]*)\\\" is selected$")
+    public void tested_adapter_is_selected(String groupName, String neName) {
+
+        NetworkPage network = new NetworkPage(driver);
+
+
+
+        logger.info("NE Group " + groupName + " is open and adapter " + neName + " is selected");
+
+    }
+
+    /** Resource Access Manager Definitions */
+
+    @Then("^user creates Network Account Credentials for adapter \\\"([^\\\"]*)\\\" with following parameters$")
+    public void user_create_credentials_with_parameters(String neName, DataTable dt) {
+
+        List<Map<String, String>> list = dt.asMaps(String.class, String.class);
+        ResourceAccessManagerPage ram = new ResourceAccessManagerPage(driver);
+        ram.openNeContextMenu(neName);
+        ram.openCreateCredentials();
+        Assert.assertTrue(ram.createNetworkAccountCredentials(list.get(0).get("Login ID"), list.get(0).get("Password")));
+
+        logger.info("User creates Network Account Credentials for adapter " + neName + " with login " + list.get(0).get("Login ID") + " and password " + list.get(0).get("Password"));
+    }
+
+    @And("^create new account credential \\\"([^\\\"]*)\\\" in \\\"([^\\\"]*)\\\" databases is confirmed$")
+    public void create_credentials_confirmed(String credentialName, String databaseName) {
+
+        ResourceAccessManagerPage ram = new ResourceAccessManagerPage(driver);
+        ram.selectUserDatabaseTab(databaseName);
+        Assert.assertTrue(ram.confirmCredentialExist(credentialName));
+
+        logger.info("User create new account credential " + credentialName + " in " + databaseName + " database with success.");
+
+    }
+
+    @And("^store name \\\"([^\\\"]*)\\\" is selected$")
+    public void select_user_database(String databaseName) throws InterruptedException {
+
+        Thread.sleep(5000);
+        ResourceAccessManagerPage ram = new ResourceAccessManagerPage(driver);
+        ram.selectUserDatabaseTab(databaseName);
+
+        logger.info("Store name " + databaseName + " is selected.");
+
+    }
+
+    @Then("^password for the credential \\\"([^\\\"]*)\\\" is changed to \\\"([^\\\"]*)\\\" with success$")
+    public void password_of_credential_is_changed(String credentialName, String newPassword) throws InterruptedException{
+
+        Thread.sleep(5000);
+        ResourceAccessManagerPage ram = new ResourceAccessManagerPage(driver);
+        Assert.assertTrue(ram.changePasswordManually(credentialName, newPassword));
+
+        logger.info("Password for the " + credentialName + " is changed to " +  newPassword + " with success");
+    }
+
+    @Then("^from network element \\\"([^\\\"]*)\\\" a credential \\\"([^\\\"]*)\\\" is deleted with success$")
+    public void credential_deleted(String neName, String credentialName) {
+
+        ResourceAccessManagerPage ram = new ResourceAccessManagerPage(driver);
+
+        ram.openNeContextMenu(neName);
+        ram.openDeleteCredentials();
+        Assert.assertTrue(ram.deleteNetworkAccountCredential(credentialName));
+
+        logger.info("Credential " + credentialName + "is deleted from Network Element " + neName + " with success.");
+
+
+    }
+
+    @When("^Assign Network Security Profile is performed for the selected user \\\"([^\\\"]*)\\\"$")
+    public void assign_network_security_profile(String userName) {
+
+        ResourceAccessManagerPage ram = new ResourceAccessManagerPage(driver);
+        ram.openAccountContextMenu(userName);
+        ram.assignNetworkSecurityProfile(userName);
+
+        logger.info("Security Profile has been assigned to selected user " + userName);
+    }
+
+    @Then("^Network Security Profile should be assigned successfully$")
+    public void assign_secprof_success() {
+
+        ResourceAccessManagerPage ram = new ResourceAccessManagerPage(driver);
+        ram.isAccessPresent();
+        logger.info("Security Profile Assign action result in success.");
+
+
+
+    }
+
+    /** Network Access Definitions */
+
+    @When("^Verify Configuration on Network Element \\\"([^\\\"]*)\\\" is performed$")
+    public void verify_configuration(String neName) throws InterruptedException {
+
+        NetworkElementsPage networkElements =  new NetworkElementsPage(driver);
+        networkElements.changeManagementState(neName, "Unmanaged");
+        networkElements.changeManagementState(neName, "Under Test");
+        networkElements.verifyConfiguration(neName);
+
+
+    }
+
+    @Then("^Fingerprint operation should finish in success$")
+    public void fingerprint_success() {
+
+        NetworkElementsPage networkElements =  new NetworkElementsPage(driver);
+        Assert.assertTrue(networkElements.verifyFingerprintSuccess());
+
+    }
+
+    /** Secure Access Scheduler */
+
+    @When("^user creates new Password Rotation Schedule with following parameters$")
+    public void password_rotation_create(DataTable dt) {
+
+        List<Map<String, String>> list = dt.asMaps(String.class, String.class);
+        SecureAccessSchedulerPage scheduler = new SecureAccessSchedulerPage(driver);
+        scheduler.clickCreateButton();
+        scheduler.enterScheduleName(list.get(0).get("Name"));
+        scheduler.enterScheduleTime(list.get(0).get("Schedule Hour"), list.get(0).get("Schedule Minute"), list.get(0).get("Schedule Clock"));
+        scheduler.selectNetworkElementsTab();
+        scheduler.addNewNetworkElement(list.get(0).get("Network Element"));
+        scheduler.saveSchedule();
+
+
+    }
+
+    @Then("^Password Rotation Schedule \\\"([^\\\"]*)\\\" is performed within the time set with success$")
+    public void password_rotation_success(String scheduleName) {
+
+        SecureAccessSchedulerPage scheduler = new SecureAccessSchedulerPage(driver);
+        scheduler.waitForPasswordRotationPerformed(scheduleName);
+
+
+
+    }
+
+
 
 
 

@@ -1,0 +1,228 @@
+2019-12-04 14:31:20 INFO  LoginPageDefinitions:52 - NIAM login page is open and ready for performing tests
+2019-12-04 14:31:21 INFO  LoginPageDefinitions:81 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-04 14:31:22 INFO  LoginPageDefinitions:92 - NACM login page is open and ready for performing tests
+2019-12-04 14:31:27 INFO  LoginPageDefinitions:52 - NIAM login page is open and ready for performing tests
+2019-12-04 14:31:29 INFO  LoginPageDefinitions:81 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-04 14:31:46 INFO  LoginPageDefinitions:52 - NIAM login page is open and ready for performing tests
+2019-12-04 14:31:47 INFO  LoginPageDefinitions:81 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-04 14:31:48 INFO  LoginPageDefinitions:92 - NACM login page is open and ready for performing tests
+2019-12-04 14:37:28 INFO  LoginPageDefinitions:52 - NIAM login page is open and ready for performing tests
+2019-12-04 14:37:30 INFO  LoginPageDefinitions:81 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-05 11:23:36 INFO  LoginPageDefinitions:52 - NIAM login page is open and ready for performing tests
+2019-12-05 11:23:38 INFO  LoginPageDefinitions:81 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-05 11:31:48 INFO  LoginPageDefinitions:52 - NIAM login page is open and ready for performing tests
+2019-12-05 11:31:50 INFO  LoginPageDefinitions:81 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-05 11:33:38 INFO  LoginPageDefinitions:52 - NIAM login page is open and ready for performing tests
+2019-12-05 11:33:40 INFO  LoginPageDefinitions:81 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-05 11:33:40 INFO  LoginPageDefinitions:92 - NACM login page is open and ready for performing tests
+2019-12-05 11:54:44 INFO  LoginPageDefinitions:52 - NIAM login page is open and ready for performing tests
+2019-12-05 11:54:45 INFO  LoginPageDefinitions:81 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-05 11:54:45 INFO  LoginPageDefinitions:92 - NACM login page is open and ready for performing tests
+2019-12-05 15:05:49 INFO  LoginPageDefinitions:52 - NIAM login page is open and ready for performing tests
+2019-12-05 15:05:50 INFO  LoginPageDefinitions:81 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-05 15:05:50 INFO  LoginPageDefinitions:92 - NACM login page is open and ready for performing tests
+2019-12-05 15:51:06 INFO  LoginPageDefinitions:53 - NIAM login page is open and ready for performing tests
+2019-12-05 15:51:07 INFO  LoginPageDefinitions:82 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-05 15:51:07 INFO  LoginPageDefinitions:93 - NACM login page is open and ready for performing tests
+2019-12-05 15:51:54 INFO  LoginPageDefinitions:53 - NIAM login page is open and ready for performing tests
+2019-12-05 15:51:56 INFO  LoginPageDefinitions:82 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-05 15:51:56 INFO  LoginPageDefinitions:93 - NACM login page is open and ready for performing tests
+2019-12-05 15:52:06 INFO  LoginPageDefinitions:155 - Network Snapshot Browser is open
+2019-12-05 16:20:32 INFO  LoginPageDefinitions:53 - NIAM login page is open and ready for performing tests
+2019-12-05 16:20:33 INFO  LoginPageDefinitions:82 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-05 16:20:33 INFO  LoginPageDefinitions:93 - NACM login page is open and ready for performing tests
+2019-12-05 16:20:46 INFO  LoginPageDefinitions:53 - NIAM login page is open and ready for performing tests
+2019-12-05 16:20:47 INFO  LoginPageDefinitions:82 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-05 16:20:47 INFO  LoginPageDefinitions:93 - NACM login page is open and ready for performing tests
+2019-12-05 16:24:33 INFO  LoginPageDefinitions:53 - NIAM login page is open and ready for performing tests
+2019-12-05 16:24:35 INFO  LoginPageDefinitions:82 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-05 16:24:35 INFO  LoginPageDefinitions:93 - NACM login page is open and ready for performing tests
+2019-12-05 16:57:44 INFO  LoginPageDefinitions:53 - NIAM login page is open and ready for performing tests
+2019-12-05 16:57:46 INFO  LoginPageDefinitions:82 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-05 16:57:46 INFO  LoginPageDefinitions:93 - NACM login page is open and ready for performing tests
+2019-12-06 17:58:21 INFO  R19StepDefinitions:40 - NIAM login page is open and ready for performing tests
+2019-12-06 17:58:23 INFO  R19StepDefinitions:69 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-06 17:58:23 INFO  R19StepDefinitions:80 - NACM login page is open and ready for performing tests
+2019-12-06 18:00:28 INFO  R19StepDefinitions:40 - NIAM login page is open and ready for performing tests
+2019-12-06 18:00:30 INFO  R19StepDefinitions:69 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-06 18:00:30 INFO  R19StepDefinitions:80 - NACM login page is open and ready for performing tests
+2019-12-06 18:00:31 INFO  R19StepDefinitions:181 - Network Snapshot Browser is open
+2019-12-06 18:03:25 INFO  R19StepDefinitions:41 - NIAM login page is open and ready for performing tests
+2019-12-06 18:03:26 INFO  R19StepDefinitions:70 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-06 18:03:26 INFO  R19StepDefinitions:81 - NACM login page is open and ready for performing tests
+2019-12-06 18:03:27 INFO  R19StepDefinitions:182 - Network Snapshot Browser is open
+2019-12-09 14:28:03 INFO  R19StepDefinitions:41 - NIAM login page is open and ready for performing tests
+2019-12-09 14:28:06 INFO  R19StepDefinitions:70 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-09 14:28:06 INFO  R19StepDefinitions:81 - NACM login page is open and ready for performing tests
+2019-12-09 14:28:08 INFO  R19StepDefinitions:171 - Network is open
+2019-12-09 15:19:54 INFO  R19StepDefinitions:57 - NACM login page is open and ready for performing tests
+2019-12-09 15:19:57 INFO  R19StepDefinitions:70 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-09 15:19:57 INFO  R19StepDefinitions:81 - NACM login page is open and ready for performing tests
+2019-12-09 15:20:00 INFO  R19StepDefinitions:171 - Network is open
+2019-12-10 11:57:35 INFO  R19StepDefinitions:41 - NIAM login page is open and ready for performing tests
+2019-12-10 11:57:38 INFO  R19StepDefinitions:70 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-10 11:57:38 INFO  R19StepDefinitions:81 - NACM login page is open and ready for performing tests
+2019-12-10 11:57:39 INFO  R19StepDefinitions:182 - Network Snapshot Browser is open
+2019-12-10 11:58:27 INFO  R19StepDefinitions:41 - NIAM login page is open and ready for performing tests
+2019-12-10 11:58:29 INFO  R19StepDefinitions:70 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-10 11:58:29 INFO  R19StepDefinitions:81 - NACM login page is open and ready for performing tests
+2019-12-10 11:58:31 INFO  R19StepDefinitions:182 - Network Snapshot Browser is open
+2019-12-10 11:58:34 INFO  R19StepDefinitions:196 - Network Element test is selected from the NE Group Linux
+2019-12-10 11:58:34 INFO  R19StepDefinitions:209 - Network Snapshot is taken from Network Element test of the NE Group Linux
+2019-12-10 12:32:22 INFO  R19StepDefinitions:58 - NACM login page is open and ready for performing tests
+2019-12-10 12:32:24 INFO  R19StepDefinitions:71 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-10 12:32:24 INFO  R19StepDefinitions:82 - NACM login page is open and ready for performing tests
+2019-12-10 12:32:27 INFO  R19StepDefinitions:172 - Network is open
+2019-12-10 16:07:11 INFO  R19StepDefinitions:58 - NACM login page is open and ready for performing tests
+2019-12-10 16:07:14 INFO  R19StepDefinitions:71 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-10 16:07:14 INFO  R19StepDefinitions:82 - NACM login page is open and ready for performing tests
+2019-12-10 16:07:18 INFO  R19StepDefinitions:172 - Network is open
+2019-12-10 16:08:11 INFO  R19StepDefinitions:58 - NACM login page is open and ready for performing tests
+2019-12-10 16:08:13 INFO  R19StepDefinitions:71 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-10 16:08:13 INFO  R19StepDefinitions:82 - NACM login page is open and ready for performing tests
+2019-12-10 16:08:15 INFO  R19StepDefinitions:172 - Network is open
+2019-12-10 16:30:23 INFO  R19StepDefinitions:58 - NACM login page is open and ready for performing tests
+2019-12-10 16:30:24 INFO  R19StepDefinitions:71 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-10 16:30:24 INFO  R19StepDefinitions:82 - NACM login page is open and ready for performing tests
+2019-12-10 16:30:27 INFO  R19StepDefinitions:172 - Network is open
+2019-12-10 16:32:16 INFO  R19StepDefinitions:58 - NACM login page is open and ready for performing tests
+2019-12-10 16:32:18 INFO  R19StepDefinitions:71 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-10 16:32:18 INFO  R19StepDefinitions:82 - NACM login page is open and ready for performing tests
+2019-12-10 16:32:21 INFO  R19StepDefinitions:172 - Network is open
+2019-12-10 16:40:42 INFO  R19StepDefinitions:66 - NACM login page is open and ready for performing tests
+2019-12-10 16:40:44 INFO  R19StepDefinitions:79 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-10 16:40:44 INFO  R19StepDefinitions:90 - NACM login page is open and ready for performing tests
+2019-12-10 16:40:47 INFO  R19StepDefinitions:182 - Network is open
+2019-12-10 16:41:36 INFO  R19StepDefinitions:66 - NACM login page is open and ready for performing tests
+2019-12-10 16:41:38 INFO  R19StepDefinitions:79 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-10 16:41:38 INFO  R19StepDefinitions:90 - NACM login page is open and ready for performing tests
+2019-12-10 16:41:40 INFO  R19StepDefinitions:182 - Network is open
+2019-12-10 16:49:23 INFO  R19StepDefinitions:66 - NACM login page is open and ready for performing tests
+2019-12-10 16:49:25 INFO  R19StepDefinitions:79 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-10 16:49:25 INFO  R19StepDefinitions:90 - NACM login page is open and ready for performing tests
+2019-12-10 16:49:28 INFO  R19StepDefinitions:182 - Network is open
+2019-12-10 16:55:10 INFO  R19StepDefinitions:116 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-10 16:55:53 INFO  R19StepDefinitions:116 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-10 17:02:35 INFO  R19StepDefinitions:117 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-11 10:19:36 INFO  R19StepDefinitions:117 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-11 10:23:09 INFO  R19StepDefinitions:117 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-11 11:04:55 INFO  R19StepDefinitions:117 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-11 11:05:58 INFO  R19StepDefinitions:117 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-11 11:12:26 INFO  R19StepDefinitions:118 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-11 11:12:27 INFO  R19StepDefinitions:158 - Gold Standard section is opened.
+2019-12-11 11:12:29 INFO  R19StepDefinitions:247 - Gold Standard is assigned to Network Element test
+2019-12-11 11:12:34 INFO  R19StepDefinitions:264 - Gold Standard assign operation is confirmed
+2019-12-11 11:12:36 INFO  R19StepDefinitions:40 - Netguard application has been closed.
+2019-12-11 15:34:23 INFO  R19StepDefinitions:118 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-11 15:34:25 INFO  R19StepDefinitions:186 - Network is open
+2019-12-12 13:12:46 INFO  R19StepDefinitions:118 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-12 13:12:50 INFO  R19StepDefinitions:186 - Network is open
+2019-12-13 16:16:12 INFO  R19StepDefinitions:53 - NIAM login page is open and ready for performing tests
+2019-12-13 16:16:14 INFO  R19StepDefinitions:82 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-13 16:16:14 INFO  R19StepDefinitions:93 - NACM login page is open and ready for performing tests
+2019-12-13 16:16:16 INFO  R19StepDefinitions:174 - Resource Access Manager is open
+2019-12-13 16:58:58 INFO  R19StepDefinitions:53 - NIAM login page is open and ready for performing tests
+2019-12-13 16:59:00 INFO  R19StepDefinitions:82 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-13 16:59:00 INFO  R19StepDefinitions:93 - NACM login page is open and ready for performing tests
+2019-12-13 16:59:02 INFO  R19StepDefinitions:174 - Resource Access Manager is open
+2019-12-13 16:59:24 INFO  R19StepDefinitions:53 - NIAM login page is open and ready for performing tests
+2019-12-13 16:59:26 INFO  R19StepDefinitions:82 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-13 16:59:26 INFO  R19StepDefinitions:93 - NACM login page is open and ready for performing tests
+2019-12-13 16:59:28 INFO  R19StepDefinitions:174 - Resource Access Manager is open
+2019-12-13 16:59:30 INFO  R19StepDefinitions:212 - Network Element test is selected from the NE Group Linux
+2019-12-13 17:45:45 INFO  R19StepDefinitions:53 - NIAM login page is open and ready for performing tests
+2019-12-13 17:45:47 INFO  R19StepDefinitions:82 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-13 17:45:47 INFO  R19StepDefinitions:93 - NACM login page is open and ready for performing tests
+2019-12-13 17:45:48 INFO  R19StepDefinitions:198 - Network Snapshot Browser is open
+2019-12-13 17:45:51 INFO  R19StepDefinitions:212 - Network Element test is selected from the NE Group Linux
+2019-12-13 17:45:51 INFO  R19StepDefinitions:225 - Network Snapshot is taken from Network Element test of the NE Group Linux
+2019-12-13 18:31:47 INFO  R19StepDefinitions:57 - NIAM login page is open and ready for performing tests
+2019-12-13 18:31:49 INFO  R19StepDefinitions:86 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-13 18:31:50 INFO  R19StepDefinitions:97 - NACM login page is open and ready for performing tests
+2019-12-13 18:31:53 INFO  R19StepDefinitions:178 - Resource Access Manager is open
+2019-12-13 18:31:58 INFO  R19StepDefinitions:216 - Network Element test is selected from the NE Group Linux
+2019-12-13 18:43:39 INFO  R19StepDefinitions:57 - NIAM login page is open and ready for performing tests
+2019-12-13 18:43:41 INFO  R19StepDefinitions:86 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-13 18:43:41 INFO  R19StepDefinitions:97 - NACM login page is open and ready for performing tests
+2019-12-13 18:43:43 INFO  R19StepDefinitions:178 - Resource Access Manager is open
+2019-12-13 18:43:46 INFO  R19StepDefinitions:216 - Network Element test is selected from the NE Group Linux
+2019-12-13 18:51:05 INFO  R19StepDefinitions:57 - NIAM login page is open and ready for performing tests
+2019-12-13 18:51:06 INFO  R19StepDefinitions:86 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-13 18:51:06 INFO  R19StepDefinitions:97 - NACM login page is open and ready for performing tests
+2019-12-13 18:51:07 INFO  R19StepDefinitions:178 - Resource Access Manager is open
+2019-12-13 18:51:09 INFO  R19StepDefinitions:216 - Network Element test is selected from the NE Group Linux
+2019-12-13 18:51:14 INFO  R19StepDefinitions:393 - Store name Accounts is selected.
+2019-12-13 18:52:32 INFO  R19StepDefinitions:57 - NIAM login page is open and ready for performing tests
+2019-12-13 18:52:33 INFO  R19StepDefinitions:86 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-13 18:52:33 INFO  R19StepDefinitions:97 - NACM login page is open and ready for performing tests
+2019-12-13 18:52:34 INFO  R19StepDefinitions:178 - Resource Access Manager is open
+2019-12-13 18:52:36 INFO  R19StepDefinitions:216 - Network Element test is selected from the NE Group Linux
+2019-12-13 18:52:41 INFO  R19StepDefinitions:393 - Store name Accounts is selected.
+2019-12-13 18:54:07 INFO  R19StepDefinitions:57 - NIAM login page is open and ready for performing tests
+2019-12-13 18:54:08 INFO  R19StepDefinitions:86 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-13 18:54:08 INFO  R19StepDefinitions:97 - NACM login page is open and ready for performing tests
+2019-12-13 18:54:09 INFO  R19StepDefinitions:178 - Resource Access Manager is open
+2019-12-13 18:54:12 INFO  R19StepDefinitions:216 - Network Element test is selected from the NE Group Linux
+2019-12-13 18:54:17 INFO  R19StepDefinitions:393 - Store name Accounts is selected.
+2019-12-13 19:04:19 INFO  R19StepDefinitions:57 - NIAM login page is open and ready for performing tests
+2019-12-13 19:04:20 INFO  R19StepDefinitions:86 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-13 19:04:20 INFO  R19StepDefinitions:97 - NACM login page is open and ready for performing tests
+2019-12-13 19:04:21 INFO  R19StepDefinitions:178 - Resource Access Manager is open
+2019-12-13 19:04:48 INFO  R19StepDefinitions:57 - NIAM login page is open and ready for performing tests
+2019-12-13 19:04:49 INFO  R19StepDefinitions:86 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-13 19:04:49 INFO  R19StepDefinitions:97 - NACM login page is open and ready for performing tests
+2019-12-13 19:04:50 INFO  R19StepDefinitions:178 - Resource Access Manager is open
+2019-12-13 19:04:52 INFO  R19StepDefinitions:216 - Network Element test is selected from the NE Group Linux
+2019-12-13 19:04:57 INFO  R19StepDefinitions:393 - Store name Accounts is selected.
+2019-12-13 19:10:36 INFO  R19StepDefinitions:57 - NIAM login page is open and ready for performing tests
+2019-12-13 19:10:38 INFO  R19StepDefinitions:86 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-13 19:10:38 INFO  R19StepDefinitions:97 - NACM login page is open and ready for performing tests
+2019-12-13 19:10:39 INFO  R19StepDefinitions:178 - Resource Access Manager is open
+2019-12-13 19:10:41 INFO  R19StepDefinitions:216 - Network Element test is selected from the NE Group Linux
+2019-12-13 19:10:46 INFO  R19StepDefinitions:393 - Store name Accounts is selected.
+2019-12-13 19:19:48 INFO  R19StepDefinitions:57 - NIAM login page is open and ready for performing tests
+2019-12-13 19:19:49 INFO  R19StepDefinitions:86 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-13 19:19:49 INFO  R19StepDefinitions:97 - NACM login page is open and ready for performing tests
+2019-12-13 19:19:50 INFO  R19StepDefinitions:178 - Resource Access Manager is open
+2019-12-13 19:19:52 INFO  R19StepDefinitions:216 - Network Element test is selected from the NE Group Linux
+2019-12-13 19:19:58 INFO  R19StepDefinitions:393 - Store name Accounts is selected.
+2019-12-13 19:20:52 INFO  R19StepDefinitions:57 - NIAM login page is open and ready for performing tests
+2019-12-13 19:20:53 INFO  R19StepDefinitions:86 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-13 19:20:53 INFO  R19StepDefinitions:97 - NACM login page is open and ready for performing tests
+2019-12-13 19:20:54 INFO  R19StepDefinitions:178 - Resource Access Manager is open
+2019-12-13 19:20:56 INFO  R19StepDefinitions:216 - Network Element test is selected from the NE Group Linux
+2019-12-13 19:21:01 INFO  R19StepDefinitions:393 - Store name Accounts is selected.
+2019-12-17 13:43:01 INFO  R19StepDefinitions:126 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-17 13:48:19 INFO  R19StepDefinitions:126 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-17 13:49:51 INFO  R19StepDefinitions:126 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-17 13:51:08 INFO  R19StepDefinitions:126 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-17 13:53:45 INFO  R19StepDefinitions:126 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-17 13:59:43 INFO  R19StepDefinitions:126 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-17 14:03:16 INFO  R19StepDefinitions:126 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-17 14:35:43 INFO  R19StepDefinitions:126 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-17 14:39:01 INFO  R19StepDefinitions:126 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-18 09:36:19 INFO  R19StepDefinitions:126 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-18 10:03:28 INFO  R19StepDefinitions:126 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-18 10:38:50 INFO  R19StepDefinitions:126 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-18 13:22:10 INFO  R19StepDefinitions:126 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-18 13:27:34 INFO  R19StepDefinitions:126 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-18 13:27:54 INFO  R19StepDefinitions:126 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-18 13:32:58 INFO  R19StepDefinitions:126 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-18 13:38:29 INFO  R19StepDefinitions:126 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-18 13:40:02 INFO  R19StepDefinitions:126 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-18 13:49:31 INFO  R19StepDefinitions:126 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-18 13:58:46 INFO  R19StepDefinitions:126 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-18 14:53:05 INFO  R19StepDefinitions:149 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-18 14:53:06 INFO  R19StepDefinitions:218 - Resource Access Manager is open
+2019-12-18 14:57:52 INFO  R19StepDefinitions:149 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-18 14:57:52 INFO  R19StepDefinitions:218 - Resource Access Manager is open
+2019-12-18 14:57:55 INFO  R19StepDefinitions:266 - Network Element test is selected from the NE Group Linux
+2019-12-18 14:58:00 INFO  R19StepDefinitions:443 - Store name Accounts is selected.
+2019-12-18 15:15:40 INFO  R19StepDefinitions:149 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-18 15:15:41 INFO  R19StepDefinitions:218 - Resource Access Manager is open
+2019-12-18 15:15:42 INFO  R19StepDefinitions:266 - Network Element test is selected from the NE Group Linux
+2019-12-18 15:15:48 INFO  R19StepDefinitions:443 - Store name Accounts is selected.
+2019-12-18 15:21:22 INFO  R19StepDefinitions:149 - Login operation is performed with credentials nokadmin/nokadmin
+2019-12-18 15:21:22 INFO  R19StepDefinitions:218 - Resource Access Manager is open
+2019-12-18 15:21:23 INFO  R19StepDefinitions:266 - Network Element test is selected from the NE Group Linux
+2019-12-18 15:21:29 INFO  R19StepDefinitions:443 - Store name Accounts is selected.

@@ -14,14 +14,14 @@ public class NetworkPageDefinitions {
 
     static Logger logger = Logger.getLogger(NetworkPageDefinitions.class.getName());
 
-    @And("^NE Group \\\"([^\\\"]*)\\\" is open and adapter \\\"([^\\\"]*)\\\" is selected$")
-    public void tested_adapter_is_selected(String groupName, String neName) {
-
-        NetworkPage network = new NetworkPage(driver);
-
-        logger.info("NE Group " + groupName + " is open and adapter " + neName + " is selected");
-
-    }
+//    @And("^NE Group \\\"([^\\\"]*)\\\" is open and adapter \\\"([^\\\"]*)\\\" is selected$")
+//    public void tested_adapter_is_selected(String groupName, String neName) {
+//
+//        NetworkPage network = new NetworkPage(driver);
+//
+//        logger.info("NE Group " + groupName + " is open and adapter " + neName + " is selected");
+//
+//    }
 
     @And("^Network Element Group \\\"([^\\\"]*)\\\" is selected$")
     public void ne_group_is_selected(String groupName, String neName) {

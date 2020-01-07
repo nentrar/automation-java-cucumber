@@ -2,7 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19c6fa65-2b12-4858-815e-83a3004a73a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java-test-automation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/r18/netguard/networkAccess/NetworkElementsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resource/r19/netguard/Fingerprint.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resource/r19/niam/PassRota.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resource/r19/niam/SecProf.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/driver/windows/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/driver/windows/chrome_77/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-test-automation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-test-automation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/r19/niam/resourceAccessManager/ResourceAccessManagerPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/r19/niam/resourceAccessManager/ResourceAccessManagerPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/InternetBrowser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/pages/r19/R19StepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/pages/r19/R19StepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/pages/r19/nacm/NetworkPageDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/pages/r19/nacm/NetworkPageDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/pages/r19/niam/ResourceAccessManagerPageDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/pages/r19/niam/ResourceAccessManagerPageDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resource/r19/nacm/Audit.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resource/r19/nacm/GSretr.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resource/r19/niam/CRUD.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resource/r19/niam/CRUD.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,43 +37,29 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/r19/niam/LoginPage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/pages/r19/R19StepDefinitions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="668">
-              <caret line="53" column="40" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
+            <state relative-caret-position="271">
+              <caret line="475" column="51" lean-forward="true" selection-start-line="475" selection-start-column="51" selection-end-line="475" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/pages/r19/niam/LoginPageDefinitions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/r19/niam/WelcomePage.java">
+        <entry file="file://$PROJECT_DIR$/log/logging.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="617">
-              <caret line="80" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="-3345" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/r19/niam/resourceAccessManager/ResourceAccessManagerPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1480">
+              <caret line="140" column="65" selection-start-line="140" selection-start-column="65" selection-end-line="140" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,10 +68,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resource/r19/niam/NiamLogin.feature">
+        <entry file="file://$PROJECT_DIR$/src/test/resource/r19/niam/SecProf.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/r18/netguard/networkAccess/NetworkElementsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="110" column="130" lean-forward="true" selection-start-line="110" selection-start-column="130" selection-end-line="110" selection-end-column="130" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/r19/nacm/goldStandards/GoldStandardsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1207">
+              <caret line="77" selection-start-line="77" selection-end-line="77" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,24 +121,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/pages/SeleniumEasyBootstrapProgressBarPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/SeleniumEasyJQueryListBoxDemoPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/SeleniumEasyCheckboxDemoPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/SeleniumEasyWelcomePage.java" />
-        <option value="$PROJECT_DIR$/src/test/resource/facebook/facebookLogin.feature" />
-        <option value="$PROJECT_DIR$/src/test/resource/seleniumEasy/SimpleFormDemo.feature" />
         <option value="$PROJECT_DIR$/src/test/java/stepdefs/pages/SeleniumEasySimpleFormDemoPageDefinitions.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/SeleniumEasySimpleFormDemoPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/Webpage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/util/InternetBrowser.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepdefs/pages/SeleniumEasyWelcomePageDefinitions.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/r19/niam/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/r19/niam/WelcomePage.java" />
         <option value="$PROJECT_DIR$/src/test/resource/r19/niam/NiamLogin.feature" />
         <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
         <option value="$PROJECT_DIR$/src/main/java/util/GetConfigurationData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/r19/niam/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/InternetBrowser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/r19/niam/loginPage/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/r19/niam/welcomePage/WelcomePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/r19/niam/networkSnapshotBrowser/networkSnapshotBrowserPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepdefs/pages/r19/niam/LoginPageDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/r19/niam/secureAccessConfiguration/SecureAccessConfigurationPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/r19/niam/secureAccessScheduler/SecureAccessSchedulerPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/r18/netguard/welcomePage/R18WelcomePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/r18/netguard/loginPage/R18LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/RandomSimplePassword.java" />
+        <option value="$PROJECT_DIR$/src/test/resource/r19/niam/Audit.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/r19/netguard/networkAccess/networkElements/EditNEConfigurationPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefs/pages/r19/niam/WelcomePageDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefs/pages/r19/nacm/NamWelcomePageDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/ParseJson.java" />
+        <option value="$PROJECT_DIR$/config/config.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/r19/netguard/loginPage/LoginPage.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/util/Configuration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/GetDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/TestWebDriver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefs/pages/r19/BaseStepDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefs/pages/r19/netguard/LoginPageDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefs/pages/r19/niam/NiamWelcomePageDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefs/pages/r19/nacm/NacmWelcomePageDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/r19/netguard/welcomePage/WelcomePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/r19/niam/networkSnapshotBrowser/NetworkSnapshotBrowserPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefs/pages/r19/nacm/NetworkSnapshotBrowserDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefs/pages/r19/nacm/GoldStandardsDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/r19/nacm/goldStandards/GoldStandardsPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/r19/nacm/network/NetworkPage.java" />
+        <option value="$PROJECT_DIR$/src/test/resource/r19/nacm/Audit.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefs/pages/r19/nacm/NetworkPageDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefs/pages/r19/niam/ResourceAccessManagerPageDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/test/resource/r19/niam/CRUD.feature" />
+        <option value="$PROJECT_DIR$/src/test/resource/r19/netguard/Login.feature" />
+        <option value="$PROJECT_DIR$/src/test/resource/r19/netguard/Fingerprint.feature" />
+        <option value="$PROJECT_DIR$/src/test/resource/r19/niam/PassRota.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/r18/netguard/networkAccess/NetworkElementsPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/r19/niam/resourceAccessManager/ResourceAccessManagerPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepdefs/pages/r19/R19StepDefinitions.java" />
+        <option value="$PROJECT_DIR$/src/test/resource/r19/niam/SecProf.feature" />
       </list>
     </option>
   </component>
@@ -121,11 +182,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-6" />
-    <option name="y" value="-1" />
-    <option name="width" value="1009" />
-    <option name="height" value="1044" />
+    <option name="y" value="-6" />
+    <option name="width" value="1292" />
+    <option name="height" value="704" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -133,8 +194,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,7 +204,36 @@
             <path>
               <item name="cucumber-base-framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="cucumber-base-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cucumber-base-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumber-base-framework" type="462c0819:PsiDirectoryNode" />
               <item name="driver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cucumber-base-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumber-base-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="driver" type="462c0819:PsiDirectoryNode" />
+              <item name="linux" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cucumber-base-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumber-base-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="driver" type="462c0819:PsiDirectoryNode" />
+              <item name="windows" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cucumber-base-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumber-base-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="driver" type="462c0819:PsiDirectoryNode" />
+              <item name="windows" type="462c0819:PsiDirectoryNode" />
+              <item name="chrome_77" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cucumber-base-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumber-base-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cucumber-base-framework" type="b2602c69:ProjectViewProjectNode" />
@@ -157,6 +245,184 @@
               <item name="cucumber-base-framework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cucumber-base-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumber-base-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cucumber-base-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumber-base-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cucumber-base-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumber-base-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="netguard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cucumber-base-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumber-base-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="netguard" type="462c0819:PsiDirectoryNode" />
+              <item name="loginPage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cucumber-base-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumber-base-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="netguard" type="462c0819:PsiDirectoryNode" />
+              <item name="networkAccess" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cucumber-base-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumber-base-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="netguard" type="462c0819:PsiDirectoryNode" />
+              <item name="welcomePage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cucumber-base-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumber-base-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="r19" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cucumber-base-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumber-base-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="r19" type="462c0819:PsiDirectoryNode" />
+              <item name="nacm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cucumber-base-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumber-base-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="r19" type="462c0819:PsiDirectoryNode" />
+              <item name="nacm" type="462c0819:PsiDirectoryNode" />
+              <item name="goldStandards" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cucumber-base-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumber-base-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="r19" type="462c0819:PsiDirectoryNode" />
+              <item name="nacm" type="462c0819:PsiDirectoryNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cucumber-base-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumber-base-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="r19" type="462c0819:PsiDirectoryNode" />
+              <item name="netguard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cucumber-base-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumber-base-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="r19" type="462c0819:PsiDirectoryNode" />
+              <item name="netguard" type="462c0819:PsiDirectoryNode" />
+              <item name="loginPage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cucumber-base-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumber-base-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="r19" type="462c0819:PsiDirectoryNode" />
+              <item name="netguard" type="462c0819:PsiDirectoryNode" />
+              <item name="networkElements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cucumber-base-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumber-base-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="r19" type="462c0819:PsiDirectoryNode" />
+              <item name="netguard" type="462c0819:PsiDirectoryNode" />
+              <item name="welcomePage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cucumber-base-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumber-base-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="r19" type="462c0819:PsiDirectoryNode" />
+              <item name="niam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cucumber-base-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumber-base-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="r19" type="462c0819:PsiDirectoryNode" />
+              <item name="niam" type="462c0819:PsiDirectoryNode" />
+              <item name="networkSnapshotBrowser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cucumber-base-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumber-base-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="r19" type="462c0819:PsiDirectoryNode" />
+              <item name="niam" type="462c0819:PsiDirectoryNode" />
+              <item name="secureAccessScheduler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cucumber-base-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumber-base-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cucumber-base-framework" type="b2602c69:ProjectViewProjectNode" />
@@ -178,20 +444,77 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resource" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="cucumber-base-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumber-base-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="r19" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cucumber-base-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumber-base-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="r19" type="462c0819:PsiDirectoryNode" />
+              <item name="nacm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cucumber-base-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumber-base-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="r19" type="462c0819:PsiDirectoryNode" />
+              <item name="netguard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cucumber-base-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumber-base-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="r19" type="462c0819:PsiDirectoryNode" />
+              <item name="niam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cucumber-base-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cucumber-base-framework" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="experimental" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resource" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="pages.r19.netguard" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pages.r18.netguard.welcomePage" />
+      <recent name="pages.r18.netguard.loginPage" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Projects\cucumber-base-framework\src\test\resource\r19\niam" />
+      <recent name="C:\Projects\cucumber-base-framework\driver\windows" />
+      <recent name="C:\Projects\cucumber-base-framework\driver\windows\chrome_77" />
+      <recent name="C:\Projects\cucumber-base-framework\config" />
+      <recent name="C:\Projects\cucumber-base-framework\driver\linux" />
+      <recent name="C:\Projects\cucumber-base-framework\src\test\resource\r19\netguard" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -206,9 +529,111 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Cucumber java.Scenario: Assign User to Network Security Profile">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Assign User to Network Security Profile" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resource/r19/niam/SecProf.feature" />
+      <option name="GLUE" value="stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="java-test-automation" />
+      <option name="NAME_FILTER" value="^Assign User to Network Security Profile$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^Assign User to Network Security Profile$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Assign User to Network Security Profile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: User view network snapshot (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resource/r19/netguard/Fingerprint.feature" />
+      <option name="GLUE" value="stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="java-test-automation" />
+      <option name="NAME_FILTER" value="^User view network snapshot$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^User view network snapshot$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User view network snapshot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: User view network snapshot" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resource/r19/nacm/Audit.feature" />
+      <option name="GLUE" value="stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="java-test-automation" />
+      <option name="NAME_FILTER" value="^User view network snapshot$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^User view network snapshot$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User view network snapshot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: user creates network account credentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resource/r19/niam/CRUD.feature" />
+      <option name="GLUE" value="stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="java-test-automation" />
+      <option name="NAME_FILTER" value="^user creates network account credentials$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^user creates network account credentials$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: user creates network account credentials" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: user updates password manually in network account credentials" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resource/r19/niam/CRUD.feature" />
+      <option name="GLUE" value="stepdefs" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="java-test-automation" />
+      <option name="NAME_FILTER" value="^user updates password manually in network account credentials$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^user updates password manually in network account credentials$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: user updates password manually in network account credentials" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <option name="FILE_PATH" value="C:\Projects\cucumber-base-framework\src\test\resource" />
+      <option name="GLUE" value="stepdefs" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -216,53 +641,6 @@
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="java-test-automation" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="java-test-automation" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -276,6 +654,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber java.Scenario: Assign User to Network Security Profile" />
+        <item itemvalue="Cucumber java.Scenario: User view network snapshot (1)" />
+        <item itemvalue="Cucumber java.Scenario: user updates password manually in network account credentials" />
+        <item itemvalue="Cucumber java.Scenario: user creates network account credentials" />
+        <item itemvalue="Cucumber java.Scenario: User view network snapshot" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -287,55 +674,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566977974182</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Add page methods for Selenium Easy websites">
-      <created>1566991031080</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1566991031080</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Add definitions for Selenium Easy websites - welcome and simple form">
-      <created>1566991071396</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1566991071396</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Add definitions for Selenium Easy welcome page">
-      <created>1566991094050</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1566991094050</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Add feature for testing Selenium Easy Simple Form">
-      <created>1566991131290</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1566991131290</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Add dependecy for FileUtil">
-      <created>1566991224574</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1566991224574</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Add screenshots makers">
-      <created>1566991287134</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1566991287134</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Change class name for more proper">
-      <created>1566991314218</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1566991314218</updated>
     </task>
     <task id="LOCAL-00008" summary="Change import according to recent changes">
       <created>1566991339808</created>
@@ -351,13 +689,375 @@
       <option name="project" value="LOCAL" />
       <updated>1566992554146</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Comment webdriverwait because of errors">
+      <created>1569854953600</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1569854953601</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Add chromedriver">
+      <created>1569854972125</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1569854972125</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add chromedriver properites and implicitywait">
+      <created>1569855007601</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1569855007601</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Refactor project name and add some dependencies">
+      <created>1569855038176</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1569855038176</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Create page object pattern classes related to NetworkSnapshotBrowser page and ResourceAccessManager page">
+      <created>1569855137029</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1569855137029</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Add chromedriver.exe to windows directory">
+      <created>1569939020486</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1569939020486</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Create page object pattern class containing methods related to Secure Access Configuration page">
+      <created>1569939080968</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1569939080968</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Fix chromedriver path">
+      <created>1569939139510</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1569939139510</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Create feature file related to crud operations containing scenarios of Create User, Update User and Delete User">
+      <created>1569939178765</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1569939178765</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Refactor feature name">
+      <created>1569939199606</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1569939199606</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Add Secure Access Schedule page">
+      <created>1570009646054</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1570009646054</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Add Gold Standards page">
+      <created>1570022633924</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1570022633924</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Add Network page">
+      <created>1570030406938</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1570030406939</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Add r18 version of Login page">
+      <created>1570112767453</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1570112767453</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Add methods for generating simple password">
+      <created>1570112795960</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1570112795960</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Add audit feature scenarios">
+      <created>1570112822493</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1570112822493</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Add r18 version of welcome page">
+      <created>1570112925398</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1570112925398</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Small package fixes">
+      <created>1570458997371</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1570458997372</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Add new methods for assertions">
+      <created>1570459025151</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1570459025151</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Small imports changes">
+      <created>1570459059119</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1570459059119</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Add cucumber statements methods for Resource Access Manager operations">
+      <created>1570459108599</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1570459108599</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Add cucumber statements methods for Welcome Page operations">
+      <created>1570459129682</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1570459129682</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Change audit.feature directory">
+      <created>1570459161282</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1570459161282</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Change login.feature directory">
+      <created>1570459187821</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1570459187821</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Finish cucumber statements of Resource Access Manager">
+      <created>1570459215713</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1570459215713</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Add EditNeConfigurationPage methods">
+      <created>1570544901953</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1570544901953</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Add firefox driver for linux">
+      <created>1570544919175</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1570544919175</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Add firefox driver for windows">
+      <created>1570544934837</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1570544934837</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Add method for open Network Snapshot Browser">
+      <created>1570544966265</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1570544966265</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Add cucumber statements methods for Network section">
+      <created>1570544997250</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1570544997250</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Add cucumber statement method for log in">
+      <created>1570545021098</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1570545021098</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Small fix">
+      <created>1570545054539</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1570545054539</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Add more cucumber statement methods">
+      <created>1570545082467</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1570545082467</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Change cucumber statements">
+      <created>1570545105625</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1570545105625</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Refactor class name">
+      <created>1570713332430</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1570713332431</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Add more cucumber statements related to Network Snapshot Browser Page">
+      <created>1570713368218</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1570713368218</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Add cucumber statements for open Gold Standards in Nacm">
+      <created>1570713395183</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1570713395183</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Prepare cucumber statement methods for Gold Standard Page">
+      <created>1570713418190</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1570713418190</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Add more methods">
+      <created>1570713436230</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1570713436230</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Change feature file according to real cucumber statements created">
+      <created>1570713474325</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1570713474325</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Add Configuration class for read config.properties">
+      <created>1572967315331</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1572967315332</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Comment all step definitions">
+      <created>1576162966680</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1576162966681</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Add all step definitions in one file">
+      <created>1576162990115</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1576162990115</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Small changes due to step definitions">
+      <created>1576163029431</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1576163029431</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Add config files with editable variables">
+      <created>1576163055671</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1576163055671</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Small changes due to step definitions">
+      <created>1576163082747</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1576163082747</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Finish up feature file for GSretr test cases">
+      <created>1576163109419</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1576163109419</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Scenario__User_view_network_snapshot_(1) - 2019.12.18 at 13h 30m 53s.xml">
+      <configuration name="Scenario: User view network snapshot (1)" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__User_view_network_snapshot_(1) - 2019.12.18 at 13h 34m 33s.xml">
+      <configuration name="Scenario: User view network snapshot (1)" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__User_view_network_snapshot_(1) - 2019.12.18 at 13h 39m 39s.xml">
+      <configuration name="Scenario: User view network snapshot (1)" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__User_view_network_snapshot_(1) - 2019.12.18 at 13h 42m 05s.xml">
+      <configuration name="Scenario: User view network snapshot (1)" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__User_view_network_snapshot_(1) - 2019.12.18 at 13h 51m 07s.xml">
+      <configuration name="Scenario: User view network snapshot (1)" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__User_view_network_snapshot_(1) - 2019.12.18 at 14h 00m 09s.xml">
+      <configuration name="Scenario: User view network snapshot (1)" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Assign_User_to_Network_Security_Profile - 2019.12.18 at 14h 53m 56s.xml">
+      <configuration name="Scenario: Assign User to Network Security Profile" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Assign_User_to_Network_Security_Profile - 2019.12.18 at 14h 58m 10s.xml">
+      <configuration name="Scenario: Assign User to Network Security Profile" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Assign_User_to_Network_Security_Profile - 2019.12.18 at 15h 15m 58s.xml">
+      <configuration name="Scenario: Assign User to Network Security Profile" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Assign_User_to_Network_Security_Profile - 2019.12.18 at 15h 21m 40s.xml">
+      <configuration name="Scenario: Assign User to Network Security Profile" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27292112" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20042644" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -365,15 +1065,16 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" visible="true" weight="0.049837485" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.9301706" visible="true" weight="0.28710726" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.06982943" side_tool="true" weight="0.032502707" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49733475" weight="0.53846157" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -385,25 +1086,38 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add page methods for Selenium Easy websites" />
-    <MESSAGE value="Add definitions for Selenium Easy websites - welcome and simple form" />
-    <MESSAGE value="Add definitions for Selenium Easy welcome page" />
-    <MESSAGE value="Add feature for testing Selenium Easy Simple Form" />
-    <MESSAGE value="Add dependecy for FileUtil" />
-    <MESSAGE value="Add screenshots makers" />
-    <MESSAGE value="Change class name for more proper" />
-    <MESSAGE value="Change import according to recent changes" />
-    <MESSAGE value="Add asserts to two methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add asserts to two methods" />
+    <MESSAGE value="Add cucumber statements methods for Welcome Page operations" />
+    <MESSAGE value="Change audit.feature directory" />
+    <MESSAGE value="Change login.feature directory" />
+    <MESSAGE value="Finish cucumber statements of Resource Access Manager" />
+    <MESSAGE value="Add EditNeConfigurationPage methods" />
+    <MESSAGE value="Add firefox driver for linux" />
+    <MESSAGE value="Add firefox driver for windows" />
+    <MESSAGE value="Add method for open Network Snapshot Browser" />
+    <MESSAGE value="Add cucumber statements methods for Network section" />
+    <MESSAGE value="Add cucumber statement method for log in" />
+    <MESSAGE value="Small fix" />
+    <MESSAGE value="Add more cucumber statement methods" />
+    <MESSAGE value="Change cucumber statements" />
+    <MESSAGE value="Refactor class name" />
+    <MESSAGE value="Add more cucumber statements related to Network Snapshot Browser Page" />
+    <MESSAGE value="Add cucumber statements for open Gold Standards in Nacm" />
+    <MESSAGE value="Prepare cucumber statement methods for Gold Standard Page" />
+    <MESSAGE value="Add more methods" />
+    <MESSAGE value="Change feature file according to real cucumber statements created" />
+    <MESSAGE value="Add Configuration class for read config.properties" />
+    <MESSAGE value="Comment all step definitions" />
+    <MESSAGE value="Add all step definitions in one file" />
+    <MESSAGE value="Add config files with editable variables" />
+    <MESSAGE value="Small changes due to step definitions" />
+    <MESSAGE value="Finish up feature file for GSretr test cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish up feature file for GSretr test cases" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/SeleniumEasyBootstrapProgressBarPage.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/SeleniumEasyJQueryListBoxDemoPage.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/SeleniumEasyCheckboxDemoPage.java" />
     <entry file="file://$PROJECT_DIR$/src/test/resource/facebook/facebookLogin.feature" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/FacebookLoginPage.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/pages/LoginPageDefinitions.java" />
@@ -421,26 +1135,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/SeleniumEasyWelcomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="59" column="87" selection-start-line="59" selection-start-column="87" selection-end-line="59" selection-end-column="87" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/InternetBrowser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/SeleniumEasyWelcomePage.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/pages/SeleniumEasySimpleFormDemoPageDefinitions.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/api/restassured/BaseUrl.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -449,33 +1144,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/SeleniumEasySimpleFormDemoPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/SeleniumEasySimpleFormDemoPage.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/pages/SeleniumEasyWelcomePageDefinitions.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/resource/jsonPlaceholder/restScenario.feature" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/GetConfigurationData.java" />
+    <entry file="file://$PROJECT_DIR$/java-test-automation.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/InternetBrowser.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/RandomSimplePassword.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="173" />
+        <state relative-caret-position="391">
+          <caret line="23" column="64" lean-forward="true" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/r18/netguard/loginPage/R18LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="26" column="43" lean-forward="true" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/r19/niam/secureAccessConfiguration/SecureAccessConfigurationPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4233">
+          <caret line="255" column="25" selection-start-line="255" selection-start-column="25" selection-end-line="255" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/pages/SeleniumEasyWelcomePageDefinitions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-420">
-          <caret line="28" column="115" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="28" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/r19/niam/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="53" column="40" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/ParseJson.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/api/restassured/RestAssuredDefinitions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -483,73 +1184,350 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resource/jsonPlaceholder/restScenario.feature">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="175">
+          <caret line="300" column="30" selection-start-line="300" selection-start-column="30" selection-end-line="300" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resource/r19/niam/NiamLogin.feature">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/Objects.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+        <state relative-caret-position="522">
+          <caret line="202" column="18" selection-start-line="202" selection-start-column="18" selection-end-line="202" selection-end-column="18" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/GetConfigurationData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/pages/r19/niam/LoginPageDefinitions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-test-automation.iml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        <state relative-caret-position="748">
+          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/r19/niam/WelcomePage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        <state relative-caret-position="221">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/r19/netguard/loginPage/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/Page.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/r19/netguard/welcomePage/WelcomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="70" column="8" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/pages/r19/niam/NiamWelcomePageDefinitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="58" column="7" selection-start-line="21" selection-start-column="2" selection-end-line="58" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/pages/r19/netguard/LoginPageDefinitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/pages/r19/nacm/NacmWelcomePageDefinitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/pages/r19/nacm/NetworkSnapshotBrowserDefinitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/pages/r19/nacm/GoldStandardsDefinitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/r19/nacm/network/NetworkPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3366">
+          <caret line="206" selection-start-line="206" selection-end-line="206" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/pages/r19/nacm/NetworkPageDefinitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="16" selection-start-line="16" selection-start-column="2" selection-end-line="23" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/pages/r19/niam/ResourceAccessManagerPageDefinitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="87" column="7" selection-start-line="33" selection-start-column="6" selection-end-line="87" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/r18/netguard/welcomePage/R18WelcomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1984">
+          <caret line="11" selection-start-line="11" selection-end-line="16" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/r19/netguard/networkAccess/networkElements/EditNEConfigurationPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="27" selection-start-line="27" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/r19/niam/networkSnapshotBrowser/NetworkSnapshotBrowserPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="86" column="50" lean-forward="true" selection-start-line="86" selection-start-column="50" selection-end-line="86" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resource/r19/netguard/Login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="61" lean-forward="true" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/r19/niam/secureAccessScheduler/SecureAccessSchedulerPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resource/r19/niam/PassRota.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/r19/nacm/goldStandards/GoldStandardsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resource/r19/nacm/GSretr.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="47" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resource/r19/niam/CRUD.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resource/r19/netguard/Fingerprint.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/r18/netguard/networkAccess/NetworkElementsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="110" column="130" lean-forward="true" selection-start-line="110" selection-start-column="130" selection-end-line="110" selection-end-column="130" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/r19/niam/resourceAccessManager/ResourceAccessManagerPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1480">
+          <caret line="140" column="65" selection-start-line="140" selection-start-column="65" selection-end-line="140" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resource/r19/niam/SecProf.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepdefs/pages/r19/R19StepDefinitions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="475" column="51" lean-forward="true" selection-start-line="475" selection-start-column="51" selection-end-line="475" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/logging.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3345" />
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -117,6 +117,8 @@ public class ResourceAccessManagerPage {
     private final String NETWORK_ELEMENT_NAME = "//span[text()='%s']";
     private final String SELECTED_PROFILE_XPATH = "//a[text()='%s']";
     private final String CONFIRM_CREDENTIAL = "//div[contains(text(),'%s')]";
+    private final By WARNING_MESSAGE_TEXT = By.xpath("//div[contains(text(),'Some of the credentials did not meet password requirements. Click Yes to apply only valid Network credential passwords to the network, and save both valid and invalid System credential passwords.')]");
+    private final String SELECTED_USERNAME = "//div[text()='%s' and contains(@class,'x-grid3-col-loginID')]";
 
     public ResourceAccessManagerPage(WebDriver driver) {
 
@@ -130,6 +132,13 @@ public class ResourceAccessManagerPage {
         Actions actions = new Actions(driver);
         WebElement networkElement = driver.findElement(By.xpath(String.format(NETWORK_ELEMENT_NAME, neName)));
         actions.contextClick(networkElement).build().perform();
+    }
+
+    public void openAccountContextMenu(String username) {
+
+        Actions actions = new Actions(driver);
+        WebElement selectedUsername = driver.findElement(By.xpath(String.format(SELECTED_USERNAME, username)));
+        actions.contextClick(selectedUsername).build().perform();
     }
 
     public void openCreateCredentials() {
@@ -229,7 +238,7 @@ public class ResourceAccessManagerPage {
 
     }
 
-    public Boolean changePasswordManually(String credentialName, String newPassword) {
+    public Boolean changePasswordManually(String credentialName, String newPassword) throws InterruptedException {
 
         WebElement passwordInputUnselected = driver.findElement(By.xpath(String.format(CREDENTIALS_PASSWORD_INPUT, credentialName)));
         passwordInputUnselected.click();
@@ -239,13 +248,22 @@ public class ResourceAccessManagerPage {
         Boolean isPresentNormal = SAVE_CREDENTIALS_BUTTON_HIDDEN_CHECK.size() > 0;
         Boolean isPresentHidden = SAVE_CREDENTIALS_BUTTON_CHECK.size() > 0;
 
-        if (isPresentHidden) {
-            SAVE_CREDENTIALS_BUTTON_HIDDEN.click();
-        } else if (isPresentNormal) {
+        if (isPresentNormal) {
             SAVE_CREDENTIALS_BUTTON.click();
+        } else if (isPresentHidden) {
+            SAVE_CREDENTIALS_BUTTON_HIDDEN.click();
         }
-
         APPLY_NETWORK_BUTTON.click();
+
+        Thread.sleep(5000);
+
+        Boolean isPresentWarning = driver.findElements(WARNING_MESSAGE_TEXT).size() > 0;
+
+        if (isPresentWarning) {
+
+            APPLY_NETWORK_BUTTON.click();
+
+        }
 
         Boolean isPresent = PASSWORD_UPDATE_SUCCESS.size() > 0;
 
