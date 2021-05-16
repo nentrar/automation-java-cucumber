@@ -7,8 +7,8 @@ import java.util.Properties;
 
 public class Configuration {
 
-    String niamUrl;
-    String nacmUrl;
+    String sekretnaUrl;
+    String testujUrl;
 
     public Configuration() {
 
@@ -20,8 +20,8 @@ public class Configuration {
             prop.load(input);
 
             // get the property value
-            this.niamUrl = prop.getProperty("niamUrl");
-            this.nacmUrl = prop.getProperty("nacmUrl");
+            this.sekretnaUrl = prop.getProperty("sekretnaUrl");
+            this.testujUrl = prop.getProperty("testujUrl");
 
 
         } catch (IOException ex) {
@@ -30,12 +30,13 @@ public class Configuration {
 
     }
 
-    public String getNiamUrl() {
+    public String getSekretnaUrl() {
 
-        return niamUrl;
+        return sekretnaUrl;
     }
 
-    public String getNacmUrl() {
-        return nacmUrl;
+    public String getTestujUrl() {
+
+        return testujUrl;
     }
 }
