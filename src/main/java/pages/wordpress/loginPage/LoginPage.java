@@ -1,4 +1,4 @@
-package pages.r19.netguard.loginPage;
+package pages.wordpress.loginPage;
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -14,14 +14,14 @@ public class LoginPage {
 
     //WebDriverWait wait = new WebDriverWait(driver, TIMEOUT_30SECONDS);
 
-    @FindBy(xpath = "//input[contains(@name,'username')]")
+    @FindBy(id = "user_login")
     static WebElement USERNAME_INPUT;
 
-    @FindBy(xpath = "//input[contains(@name,'password')]")
+    @FindBy(id = "user_pass")
     static WebElement PASSWORD_INPUT;
 
-    @FindBy(id = "pro-fam-name")
-    static WebElement LOGIN_PAGE_TXT;
+    @FindBy(id = "wp-submit")
+    static WebElement SUBMIT;
 
 
     public LoginPage(WebDriver driver) {
@@ -48,10 +48,9 @@ public class LoginPage {
         PASSWORD_INPUT.sendKeys(Keys.ENTER);
     }
 
-    public String getLoginPageTxt() {
+    public static void clickSubmitButton() {
 
-        return LOGIN_PAGE_TXT.getText();
-
+        SUBMIT.click();
     }
 
 
